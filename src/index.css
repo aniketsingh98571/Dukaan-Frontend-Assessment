@@ -1,0 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --left-side-bar:#1E2640;
+    --left-top-text:#FFFFFF;
+}
