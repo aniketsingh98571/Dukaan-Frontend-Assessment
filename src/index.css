@@ -1,8 +1,10 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;;
 }
 :root{
     --left-side-bar:#1E2640;
     --left-top-text:#FFFFFF;
+    --wallet-background:#353C53;
 }

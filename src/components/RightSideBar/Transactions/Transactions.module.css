@@ -1,0 +1,210 @@
+.OuterTransactionsContainer{
+    background:  #FAFAFA;
+    padding: 15px 30px;
+    box-sizing: border-box;
+    height: 62%;
+}
+.TransactionText{
+    display: flex;
+    align-items: center;
+    padding: 0 0 20px 0;
+}
+.TransactionText p{
+    color: #1A181E;
+    font-size: 18px;
+    padding: 0 10px;
+    font-weight: 600;
+}
+.TransactionText span{
+    border-right: 2px solid #1A181E;
+    color: #1A181E;
+    font-size: 18px;
+    padding: 0 10px 0 0;
+    font-weight: 600;
+}
+.TransactionTable{
+    background-color: var(--left-top-text);
+    padding: 10px;
+    border-radius: 5px;
+}
+.SearchContainer{
+    border-radius: 4px;
+    display: flex;
+    padding: 0px 16px;
+    align-items: center;
+    gap: 8px;
+    border: 1px solid  #D9D9D9;
+    width: 200px;
+}
+.InputContainer input{
+    padding: 10px 0;
+    border: none;
+    outline: none;
+}
+.InputContainer input::placeholder{
+    color:  #999;
+    font-size: 14px;
+}
+.SearchImage img{
+    width: 14px;
+    height: auto;
+}
+.SortContainer{
+    display: flex;
+    width: 50px;
+    padding: 6px 12px;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    border-radius: 4px;
+    border: 1px solid  #D9D9D9;
+}
+.DownLoadContainer{
+    display: flex;
+    /* width: 50px; */
+    padding: 6px 7px;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    border-radius: 4px;
+    border: 1px solid  #D9D9D9;
+}
+.DownLoadContainer img{
+    width: 19px;
+    height: auto;
+}
+.UpperRightContainer{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.UpperContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 10px 0;
+}
+.LabelsContainer{
+    border-radius: 4px;
+    background: #F2F2F2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 0 0 10px 0;
+}
+.LabelsContainer div{
+    width: 25%;
+    justify-content: center;
+    text-align: center;
+}
+.LabelsContainer p{
+    color:  #4D4D4D;
+    font-size: 14px;
+}
+.LabelsContainer div:first-child{
+    text-align: left;
+}
+.LabelsContainer div:last-child{
+    justify-content: right;
+}
+.OrderDate,.TransactionContainer{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.OrderDate img{
+    width: 10px;
+    height: auto;
+}
+.SingleRecord{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 10px;
+    border-bottom: 1px solid #E6E6E6;
+}
+.SingleRecord p{
+    font-size: 14px;
+    width: 25%;
+    text-align: center;
+    font-size: 14px;
+}
+
+.SingleRecord p:first-child{
+    text-align: left;
+    margin: 0 0 0 0px;
+    color:  #146EB4;
+}
+.SingleRecord p:last-child{
+  text-align: right;
+  margin: 0 0px 0 0;
+}
+.TransitionContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Buttons{
+    display: flex;
+    align-items: center;
+}
+.PreviousButton{
+    margin: 0 25px 0 0;
+}
+.NextButton{
+    margin:  0 0 0 25px;
+}
+.PreviousButton button,.NextButton button{
+    border-radius: 4px;
+    border: 1px solid  #D9D9D9;
+    background:  #FFF;
+    display: flex;
+    padding: 6px 12px 6px 6px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+.PreviousButton button img{
+    filter: invert(1);
+    width: 10px;
+    height: auto;
+    transform: rotate(94deg);
+    margin: -2px 0 0 0;
+}
+.NextButton button img{
+    filter: invert(1);
+    width: 10px;
+    height: auto;
+    transform: rotate(270deg);
+    margin: -1px 0 0 0;
+}
+.TransitionContainer{
+    margin: 20px 0 0 0;
+}
+.Buttons{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.Buttons div{
+    font-size: 14px;
+}
+.Buttons div:first-child{
+    border-radius: 4px;
+    background:  #146EB4;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: var(--left-top-text);
+    display: flex;
+    width: 28px;
+    height: 28px;
+    padding: 6px 8px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
